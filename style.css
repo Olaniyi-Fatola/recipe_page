@@ -23,7 +23,7 @@ body {
     font-weight: 5rem;
     align-items: center;
     justify-content: center;
-    min-height: 300vh;
+    min-height: 100vh;
 }
 
 .dish {
