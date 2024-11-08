@@ -38,6 +38,7 @@ h1 {
     font-family: "Young Serif";
     color: hsl(24, 5%, 18%);
     font-size: 35px;
+    line-height: normal;
 }
 h3 {
     font-family: "Young Serif";
