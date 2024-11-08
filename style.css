@@ -76,6 +76,7 @@ ol{
         background-color: hsl(0, 0%, 100%);
         font-family: Outfit;
         font-weight: 5rem;
+        min-height: fit-content;
     }
     
     .dish {
