@@ -77,14 +77,19 @@ ol{
         font-family: Outfit;
         font-weight: 5rem;
     }
-
+    
     .dish {
-        margin:0;
-        background-color: white;
+        margin: 0;
         width: 100%;
-        min-height: 100vh;
+        padding: 0rem;
+        border-radius: 0;
     }
+    .content{
+        padding: 1.5rem;
+    }
+
     img{
-        overflow:visible ;
+        border-radius: 0;
+        overflow-y: hidden;
     }
 }
