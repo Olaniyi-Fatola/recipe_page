@@ -13,7 +13,7 @@
 
 *{
     font-size: 0.95rem;
-    line-height: 1.5em;
+    line-height: 1.75rem;
 }
 
 body {
@@ -37,12 +37,13 @@ body {
 h1 {
     font-family: "Young Serif";
     color: hsl(24, 5%, 18%);
-    font-size: 35px;
+    font-size: 2rem;
     line-height: normal;
 }
 h3 {
     font-family: "Young Serif";
     color: hsl(14, 45%, 36%);
+    font-size: 1.5rem;
 }
 
 img {
@@ -52,24 +53,28 @@ img {
 
 .prepare {
     background-color: hsl(330, 100%, 98%);
-    padding: 2em;
+    padding: 1.5em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1em;
 }
 
 h2 {
     color: hsl(332, 51%, 32%);
 }
 
-p,li {
+p,li,div {
     color: hsl(30, 10%, 34%);
 }
 
-ol{
-    flex:content;
-}
-
-.values{
+.one, .two, .three, .four{
     display: flex;
 }
+
+.one > p, .two > p, .three > p, .four > p{
+    flex: 1 1;
+}
+
 
 @media(max-width: 768px){
     body {
@@ -87,7 +92,7 @@ ol{
         border-radius: 0;
     }
     .content{
-        padding: 3.2rem;
+        padding: 2.5rem;
     }
 
     img{
