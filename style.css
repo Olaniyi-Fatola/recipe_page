@@ -69,6 +69,7 @@ p,li,div {
 
 .one, .two, .three, .four{
     display: flex;
+    padding-left: 2.5rem;
 }
 
 .one > p, .two > p, .three > p, .four > p{
